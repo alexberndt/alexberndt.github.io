@@ -1,6 +1,6 @@
 <template lang="pug">
 .bio
-  img.img-thumbnail.rounded-circle.border-1(:src='imagelink', alt='logo')
+  img.img-thumbnail.rounded-circle.border-1( :src="require('@/assets/' + imagelink + '')", alt='logo')
   p {{ text1 }}
   p {{ text2 }}
 </template>

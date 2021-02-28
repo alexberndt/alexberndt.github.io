@@ -4,7 +4,7 @@
     div.container
       h4 Bio
     Bio(
-      imagelink='@/assets/alexander-berndt.jpg',
+      imagelink='alexander-berndt.jpg',
       text1='Alexander Berndt is a dedicated and passionate doctoral student at KTH Royal Institute of Technology in Stockholm.',
       text2='His research interests include machine learning applied to critical infrastructure, discrete optimization, multi-agent path planning, vehicle routing and scheduling and networked control.'
     )
