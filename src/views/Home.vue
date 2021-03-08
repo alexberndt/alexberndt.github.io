@@ -26,6 +26,7 @@
       imagelink="img/hil_paper.png",
       authors="A. Berndt, W. Penny, P.S Els"
     )
+    
 
   #projects.container.section
     .container
