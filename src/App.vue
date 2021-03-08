@@ -9,25 +9,18 @@
   import 'bootstrap'
   import 'bootstrap/dist/css/bootstrap.min.css'
 
-  
   import Navbar from './components/Navbar.vue';
   import Footer from './components/Footer.vue';
-  //- import HelloWorld from './components/HelloWorld.vue';
 
   export default {
   name: 'App',
   components: {
-    //- HelloWorld,
     Navbar,
     Footer
     }
   }
-
-
 </script>
 
-<!--  
--->
 
 <style>
 #app {
