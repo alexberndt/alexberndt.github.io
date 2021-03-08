@@ -33,7 +33,7 @@
       h4 Projects
     Project(
       title="ISS Tracker",
-      link="https://iss-tracker.tk",
+      link="https://alexberndt.github.io/iss-tracker",
       description="Real-time tracking of the International Space Station",
       imagelink="img/isstracker.jpg"
     ) 
