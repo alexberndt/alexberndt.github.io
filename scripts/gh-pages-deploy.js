@@ -3,8 +3,10 @@ const execa = require("execa");
 const fs = require("fs");
 (async () => {
   try {
+    console.log("First committing changes to master...");
     await execa("git", ["add", "--all"]);
     await execa("git", ["commit", "-m", "before deploy"]);
+    console.log("done!");
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     // eslint-disable-next-line no-console
     console.log("Building started...");
