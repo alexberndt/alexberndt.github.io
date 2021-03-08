@@ -1,6 +1,6 @@
 <template lang="pug">
-  .about
-    h4 about
+.about
+  h4 about
 </template>
 
 

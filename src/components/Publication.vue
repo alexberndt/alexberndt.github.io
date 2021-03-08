@@ -4,7 +4,7 @@
     div.card.mb-3(img-src='')
       div.card-header
         | Card header
-      img.card-img-top(:src='imagelink', :alt='link')
+      img.card-img-top(:src="require('@/' + imagelink + '')", :alt='link')
       div.card-body
         .card-title Card title:  {{ title }}
         .card-text

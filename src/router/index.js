@@ -6,6 +6,7 @@ const routes = [
     path: "/pages/",
     name: "Home",
     component: Home,
+    props: true
   },
 ];
 

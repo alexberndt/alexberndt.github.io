@@ -5,7 +5,7 @@ const fs = require("fs");
   try {
     console.log("First committing changes to master...");
     await execa("git", ["add", "--all"]);
-    await execa("git", ["commit", "-m", "'before deploy'"]);
+    await execa("git", ["commit", "-m", "'auto commit - deploy'"]);
     await execa("git", ["push", "origin", "master"]);
     console.log("done!");
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
