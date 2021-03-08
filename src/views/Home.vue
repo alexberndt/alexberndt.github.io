@@ -12,19 +12,24 @@
   #publications.container.section
     .container
       h4 Publications
-    //- Publication(
-    //-   title="A Feedback Scheme to Reorder a Multi-Agent Execution Schedule by Persistently Optimizing a Switchable Action Dependency Graph",
-    //-   link="https://arxiv.org/pdf/2010.05254.pdf",
-    //-   conference="ICAPS 2020 Nancy, France"
-    //- ) 
-    //- Publication(
-    //-   title="Investigating Different Vehicle Velocity Estimators and an Adaptive Kalman Filter for Anti-Lock Braking Systems for Off-Road Vehicles",
-    //-   link="./pages/p/Berndt_Penny_Els_ISTVS2017.pdf",
-    //-   conference="ISTVS 2017 Budapest, Hungary",
-    //-   imagelink="src/assets/alexander-berndt.jpg"
-    //- )
+    Publication(
+      title="A Feedback Scheme to Reorder a Multi-Agent Execution Schedule by Persistently Optimizing a Switchable Action Dependency Graph",
+      link="https://arxiv.org/pdf/2010.05254.pdf",
+      conference="ICAPS 2020 Nancy, France",
+      imagelink="img/gazebo.jpg",
+      authors="A. Berndt, N. van Duijkeren, L. Palmieri, T. Keviczky"
+    ) 
+    Publication(
+      title="Investigating Different Vehicle Velocity Estimators and an Adaptive Kalman Filter for Anti-Lock Braking Systems for Off-Road Vehicles",
+      link="./pages/p/Berndt_Penny_Els_ISTVS2017.pdf",
+      conference="ISTVS 2017 Budapest, Hungary",
+      imagelink="img/hil_paper.png",
+      authors="A. Berndt, W. Penny, P.S Els"
+    )
 
   #projects.container.section
+    .container
+      h4 Projects
     Project(
       title="ISS Tracker",
       link="https://iss-tracker.tk",
@@ -81,7 +86,7 @@ export default {
 
 <style>
 .section {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 </style>

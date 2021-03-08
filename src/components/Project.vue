@@ -1,16 +1,16 @@
 <template lang="pug">
 .project
   a.card-link(:href='link')
-    .container 
-      .row 
-        .col-sm-3( :title='title')
-            img.card-img( :src="require('@/assets/' + imagelink + '')", :alt='link')
-        .col-sm-9
-          .card-text
-            span {{ description }} 
-            span {{ imagelink }} 
-
-            small(class='card-subtitle m-3 text-muted') {{ link }}
+    .container.mb-3 
+      .card 
+        .card-body
+          .row 
+            .col-sm-3( :title='title')
+                img.card-img( :src="require('@/assets/' + imagelink + '')", :alt='link')
+            .col-sm-9
+              .card-title {{ title }}
+              .card-text
+                span {{ description }} 
 </template>
 
 <script>
@@ -21,4 +21,16 @@ export default {
 </script>
 
 <style scoped>
+.project{
+  text-decoration: none;
+}
+.card-title{
+  text-align: left;
+  text-decoration-color: black;
+  color: black;
+  text-decoration: none !important;
+}
+.card-text{
+  text-align: left;
+}
 </style>

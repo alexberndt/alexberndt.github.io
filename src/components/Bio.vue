@@ -9,12 +9,15 @@
         p {{ text2 }}
         .container 
           .row 
-            a.card-link(href="https://github.com/alexberndt")
-              | GitHub
-            a.card-link(href="https://linkedin.com/in/alexander-berndt/")
-                    | LinkedIn
-            a.card-link(href="mailto:alberndt@kth.se")
-                    | E-mail
+            .col-sm-3
+              a.card-link(href="https://github.com/alexberndt")
+                | GitHub
+            .col-sm-3
+              a.card-link(href="https://linkedin.com/in/alexander-berndt/")
+                | LinkedIn
+            .col-sm-3
+              a.card-link(href="mailto:berndtae@gmail.com")
+                | E-mail
 </template>
 
 <script>
