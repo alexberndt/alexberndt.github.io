@@ -6,6 +6,7 @@ const fs = require("fs");
     console.log("First committing changes to master...");
     await execa("git", ["add", "--all"]);
     await execa("git", ["commit", "-m", "before deploy"]);
+    await execa("git", ["push", "origin", "master"]);
     console.log("done!");
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     // eslint-disable-next-line no-console
