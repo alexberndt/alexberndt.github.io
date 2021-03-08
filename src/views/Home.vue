@@ -21,7 +21,7 @@
     ) 
     Publication(
       title="Investigating Different Vehicle Velocity Estimators and an Adaptive Kalman Filter for Anti-Lock Braking Systems for Off-Road Vehicles",
-      link="./pages/p/Berndt_Penny_Els_ISTVS2017.pdf",
+      link="./p/Berndt_Penny_Els_ISTVS2017.pdf",
       conference="ISTVS 2017 Budapest, Hungary",
       imagelink="img/hil_paper.png",
       authors="A. Berndt, W. Penny, P.S Els"
