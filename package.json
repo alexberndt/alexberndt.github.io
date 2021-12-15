@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --inspect\" vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "build": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --inspect\" vue-cli-service build",
+    "lint": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --inspect\" vue-cli-service lint",
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
