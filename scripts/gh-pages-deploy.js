@@ -3,7 +3,7 @@ const execa = require("execa");
 const fs = require("fs");
 (async () => {
   try {
-    console.log("First committing changes to main...");
+    console.log("First committing changes to main ...");
     await execa("git", ["add", "--all"]);
     await execa("git", ["commit", "-m", "'auto commit - deploy'"]);
     await execa("git", ["push", "origin", "main"]);
