@@ -1,0 +1,12 @@
+:root {
+    --text-regular: #2c3e50;
+    --text-highlight: #34634e;
+    --text-navbar: #7e7e7e;
+    --text-navbar-highlight: #192c24;
+    --social-regular: #bb1813ec;
+    --social-highlight: #f0642398;
+    --footer-color-background: #2c3e50;
+    --footer-color-text: rgb(71, 97, 128);
+    --footer-regular: #3c5977;
+    --footer-highlight: rgb(132, 164, 202);
+  }
