@@ -1,7 +1,8 @@
 {
-  "name": "alexander-berndt",
+  "name": "personal-website",
   "version": "0.1.0",
   "private": true,
+  "description": "Web app for personal website",
   "scripts": {
     "serve": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --inspect\" vue-cli-service serve",
     "build": "cross-env NODE_OPTIONS=\"--openssl-legacy-provider --inspect\" vue-cli-service build",
